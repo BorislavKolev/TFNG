@@ -1,0 +1,8 @@
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\bin\Debug\netstandard2.1\TFNG.Services.deps.json
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\bin\Debug\netstandard2.1\TFNG.Services.dll
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\bin\Debug\netstandard2.1\TFNG.Services.pdb
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\obj\Debug\netstandard2.1\TFNG.Services.AssemblyInfoInputs.cache
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\obj\Debug\netstandard2.1\TFNG.Services.AssemblyInfo.cs
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\obj\Debug\netstandard2.1\TFNG.Services.csproj.CoreCompileInputs.cache
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\obj\Debug\netstandard2.1\TFNG.Services.dll
+C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services\obj\Debug\netstandard2.1\TFNG.Services.pdb

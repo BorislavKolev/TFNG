@@ -1,0 +1,9 @@
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\bin\Debug\netstandard2.1\TFNG.Web.Infrastructure.deps.json
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\bin\Debug\netstandard2.1\TFNG.Web.Infrastructure.dll
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\bin\Debug\netstandard2.1\TFNG.Web.Infrastructure.pdb
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\obj\Debug\netstandard2.1\TFNG.Web.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\obj\Debug\netstandard2.1\TFNG.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\obj\Debug\netstandard2.1\TFNG.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\obj\Debug\netstandard2.1\TFNG.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\obj\Debug\netstandard2.1\TFNG.Web.Infrastructure.dll
+C:\Users\Sharw\Desktop\TFNG\TFNG\Web\TFNG.Web.Infrastructure\obj\Debug\netstandard2.1\TFNG.Web.Infrastructure.pdb
