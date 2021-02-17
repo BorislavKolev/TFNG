@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xyCCt83iuCN+fMr4KYs/RuiPhiAzYNYUVpdWZnyfQvviuqsynBgUm1RYc18V2PzozLGFBKo/Ac6fQ0O4VnSONQ==",
+  "dgSpecHash": "c1HK9kAmQtcY8DAtv+wReYFS/QAavtXLdbpJ7/0VPHC+cLzqVzryNJvefW6DyfXSXqdvnkkoieCIOnz5YlR4KQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj",
+  "projectFilePath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sharw\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Sharw\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

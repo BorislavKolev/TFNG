@@ -1323,11 +1323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
+      "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
       "projectName": "TFNG.Web.ViewModels",
-      "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
+      "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
       "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\obj\\",
+      "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1344,11 +1344,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj"
             },
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj"
             }
           }
         }

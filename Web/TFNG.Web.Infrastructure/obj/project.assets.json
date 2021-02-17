@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.Infrastructure\\TFNG.Web.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.Infrastructure\\TFNG.Web.Infrastructure.csproj",
       "projectName": "TFNG.Web.Infrastructure",
-      "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.Infrastructure\\TFNG.Web.Infrastructure.csproj",
+      "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.Infrastructure\\TFNG.Web.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.Infrastructure\\obj\\",
+      "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj",
+      "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj",
       "projectName": "TFNG.Common",
-      "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj",
+      "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj",
       "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\TFNG.Common\\obj\\",
+      "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\TFNG.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",

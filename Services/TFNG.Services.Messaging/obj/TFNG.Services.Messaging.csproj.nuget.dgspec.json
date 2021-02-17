@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj": {}
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj": {
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj",
+        "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj",
         "projectName": "TFNG.Services.Messaging",
-        "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj",
+        "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\TFNG.Services.Messaging.csproj",
         "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\obj\\",
+        "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",

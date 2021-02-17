@@ -6153,11 +6153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj",
+      "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj",
       "projectName": "TFNG.Data",
-      "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj",
+      "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj",
       "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data\\obj\\",
+      "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6174,14 +6174,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj"
             },
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj"
             },
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\TFNG.Common\\TFNG.Common.csproj"
             }
           }
         }

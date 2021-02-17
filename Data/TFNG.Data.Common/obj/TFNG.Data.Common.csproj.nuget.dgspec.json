@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {}
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
+        "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
         "projectName": "TFNG.Data.Common",
-        "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
+        "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
         "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\obj\\",
+        "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj": {}
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
+        "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
         "projectName": "TFNG.Data.Common",
-        "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
+        "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
         "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\obj\\",
+        "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj",
+        "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj",
         "projectName": "TFNG.Data.Models",
-        "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj",
+        "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj",
         "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\obj\\",
+        "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj"
+              "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj": {
+                "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj"
               }
             }
           }
@@ -140,14 +140,14 @@
         }
       }
     },
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj": {
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj",
+        "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj",
         "projectName": "TFNG.Services.Mapping",
-        "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj",
+        "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj",
         "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\obj\\",
+        "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -206,14 +206,14 @@
         }
       }
     },
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj": {
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
+        "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
         "projectName": "TFNG.Web.ViewModels",
-        "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
+        "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\TFNG.Web.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\obj\\",
+        "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -230,11 +230,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj"
+              "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj": {
+                "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Models\\TFNG.Data.Models.csproj"
               },
-              "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj": {
-                "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj"
+              "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj": {
+                "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Mapping\\TFNG.Services.Mapping.csproj"
               }
             }
           }

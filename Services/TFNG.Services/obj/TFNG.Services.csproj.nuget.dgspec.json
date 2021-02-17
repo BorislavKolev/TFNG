@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj": {}
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj": {
+    "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj",
+        "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj",
         "projectName": "TFNG.Services",
-        "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj",
+        "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services\\TFNG.Services.csproj",
         "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services\\obj\\",
+        "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",

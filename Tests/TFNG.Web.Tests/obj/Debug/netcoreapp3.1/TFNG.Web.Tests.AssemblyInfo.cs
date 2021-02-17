@@ -12,8 +12,8 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TFNG.Data", "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data", "TFNG.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TFNG.Web", "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web", "TFNG.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TFNG.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data", "TFNG.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TFNG.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web", "TFNG.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TFNG.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

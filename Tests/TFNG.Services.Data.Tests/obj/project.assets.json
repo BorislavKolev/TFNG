@@ -8656,11 +8656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Tests\\TFNG.Services.Data.Tests\\TFNG.Services.Data.Tests.csproj",
+      "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Tests\\TFNG.Services.Data.Tests\\TFNG.Services.Data.Tests.csproj",
       "projectName": "TFNG.Services.Data.Tests",
-      "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Tests\\TFNG.Services.Data.Tests\\TFNG.Services.Data.Tests.csproj",
+      "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Tests\\TFNG.Services.Data.Tests\\TFNG.Services.Data.Tests.csproj",
       "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Tests\\TFNG.Services.Data.Tests\\obj\\",
+      "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Tests\\TFNG.Services.Data.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8677,11 +8677,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data\\TFNG.Data.csproj"
             },
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Data\\TFNG.Services.Data.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Services\\TFNG.Services.Data\\TFNG.Services.Data.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Data\\TFNG.Services.Data.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Services\\TFNG.Services.Data\\TFNG.Services.Data.csproj"
             }
           }
         }

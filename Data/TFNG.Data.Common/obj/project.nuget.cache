@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R1Gw5aecSKwrqCMJ6nE0a+HAORt2luwrIC053+l1lW3C/LLviebGiMwxkGfHopYDldyVCl9rW6LkP2mgfowphw==",
+  "dgSpecHash": "rP0LyUjj3xedh+m6x8Nx6jri7ZsyU8GYGm/+PYCu2pacvMr3PHPzUWI/bQ+rjupC0+kmYTbhzC66PO9/zXRvjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
+  "projectFilePath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Data\\TFNG.Data.Common\\TFNG.Data.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sharw\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.205\\stylecop.analyzers.1.2.0-beta.205.nupkg.sha512",
     "C:\\Users\\Sharw\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.205\\stylecop.analyzers.unstable.1.2.0.205.nupkg.sha512",

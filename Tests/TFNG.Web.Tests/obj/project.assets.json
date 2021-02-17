@@ -10874,11 +10874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Tests\\TFNG.Web.Tests\\TFNG.Web.Tests.csproj",
+      "projectUniqueName": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Tests\\TFNG.Web.Tests\\TFNG.Web.Tests.csproj",
       "projectName": "TFNG.Web.Tests",
-      "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Tests\\TFNG.Web.Tests\\TFNG.Web.Tests.csproj",
+      "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Tests\\TFNG.Web.Tests\\TFNG.Web.Tests.csproj",
       "packagesPath": "C:\\Users\\Sharw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Tests\\TFNG.Web.Tests\\obj\\",
+      "outputPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Tests\\TFNG.Web.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sharw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10895,8 +10895,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web\\TFNG.Web.csproj": {
-              "projectPath": "C:\\Users\\Sharw\\Desktop\\TFNG\\TFNG\\Web\\TFNG.Web\\TFNG.Web.csproj"
+            "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web\\TFNG.Web.csproj": {
+              "projectPath": "D:\\Shar\\Programming\\Github\\TFNG\\TFNG\\Web\\TFNG.Web\\TFNG.Web.csproj"
             }
           }
         }
