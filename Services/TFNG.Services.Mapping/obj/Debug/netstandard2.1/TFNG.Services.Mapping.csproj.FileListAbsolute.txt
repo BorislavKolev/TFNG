@@ -1,9 +1,0 @@
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\bin\Debug\netstandard2.1\TFNG.Services.Mapping.deps.json
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\bin\Debug\netstandard2.1\TFNG.Services.Mapping.dll
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\bin\Debug\netstandard2.1\TFNG.Services.Mapping.pdb
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\obj\Debug\netstandard2.1\TFNG.Services.Mapping.csprojAssemblyReference.cache
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\obj\Debug\netstandard2.1\TFNG.Services.Mapping.AssemblyInfoInputs.cache
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\obj\Debug\netstandard2.1\TFNG.Services.Mapping.AssemblyInfo.cs
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\obj\Debug\netstandard2.1\TFNG.Services.Mapping.csproj.CoreCompileInputs.cache
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\obj\Debug\netstandard2.1\TFNG.Services.Mapping.dll
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Mapping\obj\Debug\netstandard2.1\TFNG.Services.Mapping.pdb

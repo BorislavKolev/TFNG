@@ -1,9 +1,0 @@
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\bin\Debug\netstandard2.1\TFNG.Services.Messaging.deps.json
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\bin\Debug\netstandard2.1\TFNG.Services.Messaging.dll
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\bin\Debug\netstandard2.1\TFNG.Services.Messaging.pdb
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\obj\Debug\netstandard2.1\TFNG.Services.Messaging.csprojAssemblyReference.cache
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\obj\Debug\netstandard2.1\TFNG.Services.Messaging.AssemblyInfoInputs.cache
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\obj\Debug\netstandard2.1\TFNG.Services.Messaging.AssemblyInfo.cs
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\obj\Debug\netstandard2.1\TFNG.Services.Messaging.csproj.CoreCompileInputs.cache
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\obj\Debug\netstandard2.1\TFNG.Services.Messaging.dll
-C:\Users\Sharw\Desktop\TFNG\TFNG\Services\TFNG.Services.Messaging\obj\Debug\netstandard2.1\TFNG.Services.Messaging.pdb
