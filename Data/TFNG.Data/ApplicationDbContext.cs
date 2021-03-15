@@ -26,6 +26,16 @@
 
         public DbSet<Setting> Settings { get; set; }
 
+        public DbSet<Award> Awards { get; set; }
+
+        public DbSet<Dance> Dances { get; set; }
+
+        public DbSet<NewsPost> NewsPosts { get; set; }
+
+        public DbSet<NewsPostPicture> NewsPostPictures { get; set; }
+
+        public DbSet<Picture> Pictures { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
