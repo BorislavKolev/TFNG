@@ -18,7 +18,7 @@
         public string LatinName { get; set; }
 
         [Required]
-        public string Description { get; set; }
+        public string Place { get; set; }
 
         [Required]
         public string ImageUrl { get; set; }
