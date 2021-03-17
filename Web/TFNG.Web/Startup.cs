@@ -2,17 +2,7 @@
 {
     using System.Reflection;
 
-    using TFNG.Data;
-    using TFNG.Data.Common;
-    using TFNG.Data.Common.Repositories;
-    using TFNG.Data.Models;
-    using TFNG.Data.Repositories;
-    using TFNG.Data.Seeding;
-    using TFNG.Services.Data;
-    using TFNG.Services.Mapping;
-    using TFNG.Services.Messaging;
-    using TFNG.Web.ViewModels;
-
+    using CloudinaryDotNet;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Http;
@@ -21,7 +11,17 @@
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using TFNG.Data;
+    using TFNG.Data.Common;
+    using TFNG.Data.Common.Repositories;
+    using TFNG.Data.Models;
+    using TFNG.Data.Repositories;
+    using TFNG.Data.Seeding;
+    using TFNG.Services.Data;
     using TFNG.Services.Data.Contracts;
+    using TFNG.Services.Mapping;
+    using TFNG.Services.Messaging;
+    using TFNG.Web.ViewModels;
 
     public class Startup
     {
@@ -57,6 +57,16 @@
             services.AddRazorPages();
 
             services.AddSingleton(this.configuration);
+
+            // Cloudinary setup
+            Account account = new Account(
+                this.configuration["Cloudinary:AppName"],
+                this.configuration["Cloudinary:AppKey"],
+                this.configuration["Cloudinary:AppSecret"]);
+
+            Cloudinary cloudinary = new Cloudinary(account);
+
+            services.AddSingleton(cloudinary);
 
             // Data repositories
             services.AddScoped(typeof(IDeletableEntityRepository<>), typeof(EfDeletableEntityRepository<>));
@@ -106,6 +116,7 @@
             app.UseEndpoints(
                 endpoints =>
                     {
+                        endpoints.MapControllerRoute("awardsRoute", "Awards", new { controller = "Awards", action = "All" });
                         endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapRazorPages();
