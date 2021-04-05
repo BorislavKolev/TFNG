@@ -69,7 +69,7 @@
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="index.html">Начало</a></li>
+                    <li class="active"><a asp-area="" asp-controller="Home" asp-action="Index">Начало</a></li>
 
                     <li>
                         <a href="#">Новини</a>
@@ -90,8 +90,8 @@
                             </ul>*@
                     </li>
 
-                    <li><a href="services.html">Конкурси и награди</a></li>
-                    <li><a href="portfolio.html">Нашите танци</a></li>
+                    <li><a asp-area="" asp-controller="Awards" asp-action="All">Конкурси и награди</a></li>
+                    <li><a asp-area="" asp-controller="Dances" asp-action="All">Нашите танци</a></li>
                     <li><a href="pricing.html">Костюми</a></li>
                     <li><a href="blog.html">Галерия</a></li>
                     <li><a href="contact.html">За нас</a></li>
