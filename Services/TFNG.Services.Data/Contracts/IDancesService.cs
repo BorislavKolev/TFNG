@@ -6,6 +6,8 @@
     {
         IEnumerable<T> GetAll<T>(int? take = null, int skip = 0);
 
+        T GetByName<T>(string name);
+
         int GetDancesCount();
     }
 }

@@ -57,5 +57,17 @@
 
             return this.View(viewModel);
         }
+
+        public IActionResult ByName(string name)
+        {
+            var danceViewModel = this.dancesService.GetByName<DanceDetailsViewModel>(name);
+
+            if (danceViewModel == null)
+            {
+                return this.NotFound();
+            }
+
+            return this.View(danceViewModel);
+        }
     }
 }

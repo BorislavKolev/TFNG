@@ -1,0 +1,50 @@
+﻿@model TFNG.Web.ViewModels.Dances.DanceDetailsViewModel
+@using System.Globalization;
+@{
+    this.ViewData["Title"] = "Dance";
+}
+
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <h2>Нашите танци</h2>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Blog Section ======= -->
+<section id="blog" class="blog">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12 entries">
+
+                <article class="entry entry-single">
+                    <h2 class="entry-title">
+                        <a href="blog-single.html">@Model.Name</a>
+                    </h2>
+
+                    <div class="video-container">
+                        <iframe src="@Model.VideoUrl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+                    </div>
+
+                    <div class="entry-meta">
+                        <ul>
+                            <li class="d-flex align-items-center"><i class="icofont-star"></i>@Model.FolkloreArea</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry-content">
+                        <p>
+                            @Model.Description
+                        </p>
+                    </div>
+                </article><!-- End blog entry -->
+
+
+            </div><!-- End blog sidebar -->
+        </div>
+
+    </div>
+</section><!-- End Blog Section -->

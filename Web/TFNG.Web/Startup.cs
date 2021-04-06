@@ -118,6 +118,7 @@
                     {
                         endpoints.MapControllerRoute("awardsRoute", "Awards", new { controller = "Awards", action = "All" });
                         endpoints.MapControllerRoute("dancesRoute", "Dances", new { controller = "Dances", action = "All" });
+                        endpoints.MapControllerRoute("danceDetailsRoute", "Dances/{name}", new { Controller = "Dances", Action = "ByName" });
                         endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapRazorPages();

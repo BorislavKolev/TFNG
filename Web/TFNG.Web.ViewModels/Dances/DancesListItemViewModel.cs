@@ -23,5 +23,7 @@
         public string ImageUrl { get; set; }
 
         public string FolkloreArea { get; set; }
+
+        public string DanceUrl => $"/Dances/{this.LatinName.Replace(' ', '-')}";
     }
 }

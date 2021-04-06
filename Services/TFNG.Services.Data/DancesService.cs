@@ -32,6 +32,14 @@
             return query.To<T>().ToList();
         }
 
+        public T GetByName<T>(string name)
+        {
+            var dance = this.danceRepository.All().Where(x => x.LatinName == name).To<T>().FirstOrDefault();
+
+            return dance;
+        }
+
+
         public int GetDancesCount()
         {
             return this.danceRepository.All().Count();
