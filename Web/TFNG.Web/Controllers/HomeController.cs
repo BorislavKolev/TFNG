@@ -2,9 +2,8 @@
 {
     using System.Diagnostics;
 
-    using TFNG.Web.ViewModels;
-
     using Microsoft.AspNetCore.Mvc;
+    using TFNG.Web.ViewModels;
 
     public class HomeController : BaseController
     {

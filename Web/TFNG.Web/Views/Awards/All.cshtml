@@ -7,13 +7,11 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
-
-            <!-- <ol> -->
-            <!-- <li><a href="index.html">Home</a></li> -->
-            <!-- <li>Blog</li> -->
-            <!-- </ol> -->
             <h2>Конкурси и награди</h2>
-
+            @if (this.User.IsInRole("Administrator"))
+            {
+                <a asp-controller="Awards" asp-action="Create">Create</a>
+            }
         </div>
     </section><!-- End Breadcrumbs -->
     <!-- ======= Blog Section ======= -->
@@ -23,7 +21,7 @@
                 @foreach (var award in Model.Awards)
                 {
                     <div class="col-lg-6 mb-4">
-                        <article class="entry">
+                        <article class="entry"  style="margin-bottom: 0px">
                             <div class="entry-img">
                                 <img src="@award.ImageUrl" alt="" class="img-fluid">
                             </div>
