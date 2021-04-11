@@ -1,6 +1,7 @@
 ﻿namespace TFNG.Web.Controllers
 {
     using System;
+    using System.Linq;
     using System.Threading.Tasks;
 
     using CloudinaryDotNet;
@@ -48,10 +49,11 @@
 
             var user = await this.userManager.GetUserAsync(this.User);
 
-            var imageUrl = await CloudinaryExtension.UploadSingleAsync(this.cloudinary, input.Picture);
+            var imageUrl = await CloudinaryExtension.UploadSingleAsync(this.cloudinary, input.Pictures.First());
 
             string latinTitle = Transliteration.CyrillicToLatin(input.Title, Language.Bulgarian);
             latinTitle = latinTitle.Replace(' ', '-');
+
             _ = await this.newsService.CreateAsync(input.Title, input.Content, user.Id, imageUrl, latinTitle, input.Author);
 
             return this.RedirectToAction("ByName", new { name = latinTitle });

@@ -1,0 +1,66 @@
+﻿@model TFNG.Web.ViewModels.News.NewsEditViewModel
+@{
+    ViewData["Title"] = "Edit news post";
+}
+
+<h1>@this.ViewData["Title"]</h1>
+
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+                <h1 class="title-single">Edit news post</h1>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+        </div>
+    </div>
+</div>
+
+<section class="contact">
+    <div class="container">
+        <form asp-action="Edit" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Title"></label>
+                        <input asp-for="Title" type="text" name="title" class="form-control form-control-lg form-control-a" placeholder="Title" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+
+                        <span asp-validation-for="Title"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Content"></label>
+                        <textarea asp-for="Content" class="form-control" rows="5"></textarea>
+
+                        <span asp-validation-for="Content"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Author"></label>
+                        <input asp-for="Author" type="text" name="author" class="form-control form-control-lg form-control-a" placeholder="Author" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+
+                        <span asp-validation-for="Author"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3" enctype="multipart/form-data">
+                    <hr />
+                    <label class="control-label" asp-for="Picture"></label>
+                    <input asp-for="Picture" type="file" name="Picture" multiple class="form-control" />
+                </div>
+
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.Id)
+                    <div class="text-center">
+                        <input type="submit" value="Save Changes" class="btn btn-a" />
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+</section> 

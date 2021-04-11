@@ -78,6 +78,7 @@
             services.AddTransient<ISettingsService, SettingsService>();
             services.AddTransient<IAwardsService, AwardsService>();
             services.AddTransient<IDancesService, DancesService>();
+            services.AddTransient<INewsService, NewsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -119,6 +120,8 @@
                         endpoints.MapControllerRoute("awardsRoute", "Awards", new { controller = "Awards", action = "All" });
                         endpoints.MapControllerRoute("dancesRoute", "Dances", new { controller = "Dances", action = "All" });
                         endpoints.MapControllerRoute("danceDetailsRoute", "Dances/{name}", new { Controller = "Dances", Action = "ByName" });
+                        endpoints.MapControllerRoute("newsRoute", "News", new { controller = "News", action = "All" });
+                        endpoints.MapControllerRoute("newsDetailsRoute", "News/{name}", new { Controller = "News", Action = "ByName" });
                         endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapRazorPages();

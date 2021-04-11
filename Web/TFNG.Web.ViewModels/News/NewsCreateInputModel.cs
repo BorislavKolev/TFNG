@@ -1,5 +1,6 @@
 ﻿namespace TFNG.Web.ViewModels.News
 {
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
     using Microsoft.AspNetCore.Http;
@@ -15,7 +16,6 @@
 
         public string Author { get; set; }
 
-        [Required(ErrorMessage = "Please add a picture.")]
-        public IFormFile Picture { get; set; }
+        public ICollection<IFormFile> Pictures { get; set; }
     }
 }

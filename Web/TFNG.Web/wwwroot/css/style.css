@@ -1521,7 +1521,7 @@ section {
 }
 
 .blog .entry .entry-img {
-  max-height: 400px;
+  max-height: 500px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }

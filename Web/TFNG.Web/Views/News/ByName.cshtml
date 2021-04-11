@@ -1,0 +1,59 @@
+﻿@model TFNG.Web.ViewModels.News.NewsDetailsViewModel
+@using System.Globalization;
+@{
+    this.ViewData["Title"] = this.Model.Title;
+}
+
+<main id="main">
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-12 entries">
+
+                    <article class="entry entry-single">
+
+                        <div class="entry-img">
+                            <img src="@Model.ImageUrl" alt="" class="img-fluid">
+                        </div>
+
+                        <h2 class="entry-title">
+                            <a href="blog-single.html">@Model.Title</a>
+                        </h2>
+
+                        <div class="entry-meta">
+                            <ul>
+                                <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">@Model.Author</a></li>
+                                <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">@Model.CreatedOn.ToString("dd.MM.yyyy" + "г.")</time></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="entry-content">
+                            @Html.Raw(Model.Content)
+                        </div>
+
+                        <div class="float-right share">
+                            <a href="" title="Share on Twitter"><i class="icofont-twitter"></i></a>
+                            <a href="" title="Share on Facebook"><i class="icofont-facebook"></i></a>
+                            <a href="" title="Share on Instagram"><i class="icofont-instagram"></i></a>
+                        </div>
+
+                </div>
+
+                </article><!-- End blog entry -->
+                @if (this.User.IsInRole("Administrator"))
+                {
+                <div class="text-center">
+                    <a asp-controller="News" asp-action="Edit" asp-route-id="@Model.Id" class="btn">Edit</a>
+                    <a asp-controller="News" asp-action="Remove" asp-route-id="@Model.Id" type="submit" class="btn">Delete</a>
+                    <a asp-controller="News" asp-action="All" type="submit" class="btn">Back to All</a>
+                </div>
+                }
+            </div>
+
+            </div>
+    </section><!-- End Blog Section -->
+
+</main><!-- End #main -->

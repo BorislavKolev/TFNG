@@ -27,7 +27,7 @@
                 Title = title,
                 Content = content,
                 UserId = userId,
-                ImageUrl = imageUrl.Insert(54, "c_fill,h_768,w_1024/"),
+                ImageUrl = imageUrl.Insert(54, "c_fill,h_1080,w_1920/"),
                 LatinTitle = latinTitle,
                 Author = author,
             };
@@ -92,7 +92,11 @@
                .All()
                .FirstOrDefaultAsync(l => l.Id == id);
 
-            newsPost.ImageUrl = imageUrl;
+            if (!string.IsNullOrEmpty(imageUrl))
+            {
+                newsPost.ImageUrl = imageUrl.Insert(54, "c_fill,h_1080,w_1920/");
+            }
+
             newsPost.Title = title;
             newsPost.Content = content;
             newsPost.UserId = userId;
