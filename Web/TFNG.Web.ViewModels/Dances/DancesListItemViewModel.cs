@@ -5,6 +5,8 @@
 
     public class DancesListItemViewModel : IMapFrom<Dance>
     {
+        public int Id { get; set; }
+
         public string Name { get; set; }
 
         public string LatinName { get; set; }

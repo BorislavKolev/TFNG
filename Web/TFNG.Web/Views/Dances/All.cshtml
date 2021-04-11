@@ -7,6 +7,10 @@
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
         <h2>Нашите танци</h2>
+        @if (this.User.IsInRole("Administrator"))
+        {
+            <a asp-controller="Dances" asp-action="Create">Create</a>
+        }
     </div>
 </section><!-- End Breadcrumbs -->
 <!-- Page Content -->
@@ -16,15 +20,20 @@
         {
             <div class="row">
                 <div class="col-md-7">
-                    <a href="#">
+                    <a href="@dance.DanceUrl">
                         <img class="img-fluid rounded mb-3 mb-md-0" src="@dance.ImageUrl" alt="">
                     </a>
                 </div>
                 <div class="col-md-5">
                     <h3>@dance.Name</h3>
                     <p>@dance.Summary</p>
-                    <div style="margin-bottom:1rem;" ><i class="icofont-favourite"     ><a style="font-family: Bahnschrift, sans-serif;">@dance.FolkloreArea</a></i></div>
-                    <a class="btn btn-primary" style="background: #e96b56;border-color: #e96b56;" href="@dance.DanceUrl">Виж танца</a>   
+                    <div style="margin-bottom:1rem;"><i class="icofont-favourite"><a style="font-family: Bahnschrift, sans-serif;">@dance.FolkloreArea</a></i></div>
+                    <a class="btn btn-primary" style="background: #e96b56;border-color: #e96b56;" href="@dance.DanceUrl">Виж танца</a>
+                    @if (this.User.IsInRole("Administrator"))
+                    {
+                        <a class="btn btn-primary" asp-controller="Dances" asp-action="Edit" asp-route-id="@dance.Id" >Edit</a>
+                        <a class="btn btn-primary" asp-controller="Dances" asp-action="Remove" asp-route-id="@dance.Id" type="submit" >Delete</a>
+                    }
                 </div>
             </div>
             <hr>

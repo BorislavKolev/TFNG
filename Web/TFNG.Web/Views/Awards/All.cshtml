@@ -29,7 +29,7 @@
                             </div>
                             <h2 class="entry-title">
                                 @award.Name
-                            </h2>       
+                            </h2>
                             <div class="entry-meta">
                                 <ul>
                                     <li class="d-flex align-items-center"><i class="icofont-award"></i> <a>@award.Place</a></li>
@@ -37,6 +37,11 @@
                                     <li class="d-flex align-items-center"><i class="icofont-ui-calendar"></i> <a>@award.Date.ToString("dd.MM.yyyy" + "г.")</a></li>
                                 </ul>
                             </div>
+                            @if (this.User.IsInRole("Administrator"))
+                            {
+                                <a class="btn btn-primary" asp-controller="Awards" asp-action="Edit" asp-route-id="@award.Id">Edit</a>
+                                <a class="btn btn-primary" asp-controller="Awards" asp-action="Remove" asp-route-id="@award.Id" type="submit">Delete</a>
+                            }
                         </article><!-- End blog entry -->
                     </div>
                 }

@@ -1,0 +1,72 @@
+﻿@model TFNG.Web.ViewModels.Dances.DanceEditViewModel
+@{
+    ViewData["Title"] = "Edit dance";
+}
+
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+                <h1 class="title-single">Edit dance</h1>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+        </div>
+    </div>
+</div>
+
+<section class="contact">
+    <div class="container">
+        <form asp-action="Edit" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Name"></label>
+                        <input asp-for="Name" type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Description"></label>
+                        <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+
+                        <span asp-validation-for="Description"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="FolkloreArea"></label>
+                        <input asp-for="FolkloreArea" type="text" name="folkloreArea" class="form-control form-control-lg form-control-a" placeholder="FolkloreArea" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+
+                        <span asp-validation-for="FolkloreArea"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="VideoUrl"></label>
+                        <input asp-for="VideoUrl" type="text" name="videoUrl" class="form-control form-control-lg form-control-a" placeholder="VideoUrl" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+
+                        <span asp-validation-for="VideoUrl"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3" enctype="multipart/form-data">
+                    <hr />
+                    <label class="control-label" asp-for="Picture"></label>
+                    <input asp-for="Picture" type="file" name="Picture" multiple class="form-control" />
+                </div>
+
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.Id)
+                    <div class="text-center">
+                        <input type="submit" value="Save Changes" class="btn btn-a" />
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+</section> 

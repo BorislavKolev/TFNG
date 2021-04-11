@@ -1,0 +1,64 @@
+﻿@model TFNG.Web.ViewModels.Dances.DanceDeleteViewModel
+@{
+    ViewData["Title"] = "Remove dance";
+}
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+                <h1 class="title-single">Remove dance</h1>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+        </div>
+    </div>
+</div>
+
+<section class="contact">
+    <div class="container">
+        <form asp-action="Remove" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Name"></label>
+                        <input asp-for="Name" type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Name" disabled="">
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="LatinName"></label>
+                        <input asp-for="LatinName" type="text" name="latinName" class="form-control form-control-lg form-control-a" placeholder="LatinName" disabled="">
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Description"></label>
+                        <textarea asp-for="Description" class="form-control" rows="5" disabled=""></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="FolkloreArea"></label>
+                        <input asp-for="FolkloreArea" type="text" name="folkloreArea" class="form-control form-control-lg form-control-a" placeholder="FolkloreArea" disabled="">
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="VideoUrl"></label>
+                        <input asp-for="VideoUrl" type="text" name="videoUrl" class="form-control form-control-lg form-control-a" placeholder="VideoUrl" disabled="">
+                    </div>
+                </div>
+            </div>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(m => m.Id)
+                <div class="text-center">
+                    <p>Are you sure you want to delete this dance?</p>
+                    <input type="submit" value="Yes!" class="btn btn-danger btn-rounded" />
+                    @Html.ActionLink("Back to List", "Index")
+                </div>
+            }
+        </form>
+    </div>

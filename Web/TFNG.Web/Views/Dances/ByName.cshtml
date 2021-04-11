@@ -22,7 +22,7 @@
 
                 <article class="entry entry-single">
                     <h2 class="entry-title">
-                        <a href="blog-single.html">@Model.Name</a>
+                        @Model.Name
                     </h2>
 
                     <div class="video-container">
@@ -41,7 +41,14 @@
                         </p>
                     </div>
                 </article><!-- End blog entry -->
-
+                @if (this.User.IsInRole("Administrator"))
+                {
+                    <div class="text-center">
+                        <a asp-controller="Dances" asp-action="Edit" asp-route-id="@Model.Id" class="btn">Edit</a>
+                        <a asp-controller="Dances" asp-action="Remove" asp-route-id="@Model.Id" type="submit" class="btn">Delete</a>
+                        <a asp-controller="Dances" asp-action="All" type="submit" class="btn">Back to All</a>
+                    </div>
+                }
 
             </div><!-- End blog sidebar -->
         </div>
