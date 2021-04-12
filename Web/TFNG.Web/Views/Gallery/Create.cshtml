@@ -1,0 +1,30 @@
+﻿@model TFNG.Web.ViewModels.Gallery.PictureCreateInputModel
+@{
+    ViewData["Title"] = "Create new picture";
+}
+
+
+<h1>@this.ViewData["Title"]</h1>
+
+<hr />
+<section class="contact">
+    <div class="container">
+        <form asp-action="Create" method="post" role="form" enctype="multipart/form-data" class="php-email-form">
+            <div class="row">
+                <div class="col-md-12 mb-3" enctype="multipart/form-data">
+                    <label class="control-label" asp-for="Picture"></label>
+                    <input asp-for="Picture" type="file" name="Picture" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label class="control-label" asp-for="Type"></label>
+                    <select asp-for="Type" class="form-control">
+                        <option value="Competition">Competition</option>
+                        <option value="Vacation">Vacation</option>
+                    </select>
+                    <span asp-validation-for="Type"></span>
+                </div>
+                <input asp-page-handler="Upload" class="btn" type="submit" value="Upload" />
+            </div>
+        </form>
+    </div>
+</section> 

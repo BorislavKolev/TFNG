@@ -70,5 +70,52 @@
 
             return this.View(viewModel);
         }
+
+        [Authorize(Roles = "Administrator")]
+        public IActionResult Create()
+        {
+            var viewModel = new PictureCreateInputModel();
+
+            return this.View(viewModel);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> CreateAsync(PictureCreateInputModel input)
+        {
+            if (!this.ModelState.IsValid)
+            {
+                return this.View(input);
+            }
+
+            var user = await this.userManager.GetUserAsync(this.User);
+
+            var imageUrl = await CloudinaryExtension.UploadSingleAsync(this.cloudinary, input.Picture);
+
+            _ = await this.galleryService.CreateAsync(input.Type, imageUrl, user.Id);
+
+            return this.RedirectToAction($"All{input.Type}s");
+        }
+
+        [Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> Remove(int id)
+        {
+            var pictureToDelete = await this.galleryService.GetViewModelByIdAsync<PictureDeleteViewModel>(id);
+
+            return this.View(pictureToDelete);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> Remove(PictureDeleteViewModel pictureToDelete)
+        {
+            var model = await this.galleryService.GetViewModelByIdAsync<PictureDeleteViewModel>(pictureToDelete.Id);
+            var type = model.Type;
+            await this.galleryService.DeleteByIdAsync(pictureToDelete.Id);
+
+
+
+            return this.RedirectToAction($"All{type}s");
+        }
     }
 }

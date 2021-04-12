@@ -12,5 +12,11 @@
         int GetVacationPicturesCount();
 
         IEnumerable<T> GetAllVacation<T>(int? take = null, int skip = 0);
+
+        Task<int> CreateAsync(string type, string imageUrl, string userId);
+
+        Task<TViewModel> GetViewModelByIdAsync<TViewModel>(int id);
+
+        Task DeleteByIdAsync(int id);
     }
 }

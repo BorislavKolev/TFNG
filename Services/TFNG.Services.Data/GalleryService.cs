@@ -61,5 +61,41 @@
 
             return query.To<T>().ToList();
         }
+
+        public async Task<int> CreateAsync(string type, string imageUrl, string userId)
+        {
+            var picture = new Picture
+            {
+                UserId = userId,
+                ImageUrl = imageUrl.Insert(54, "c_fit,h_600,w_800/"),
+                Type = type,
+            };
+
+            await this.pictureRepository.AddAsync(picture);
+            await this.pictureRepository.SaveChangesAsync();
+
+            return picture.Id;
+        }
+
+        public async Task<TViewModel> GetViewModelByIdAsync<TViewModel>(int id)
+        {
+            var pictureViewModel = await this.pictureRepository
+                .All()
+                .Where(l => l.Id == id)
+                .To<TViewModel>()
+                .FirstOrDefaultAsync();
+
+            return pictureViewModel;
+        }
+
+        public async Task DeleteByIdAsync(int id)
+        {
+            var picture = await this.pictureRepository.All().FirstOrDefaultAsync(l => l.Id == id);
+
+            picture.IsDeleted = true;
+            picture.DeletedOn = DateTime.UtcNow;
+            this.pictureRepository.Update(picture);
+            await this.pictureRepository.SaveChangesAsync();
+        }
     }
 }

@@ -8,6 +8,10 @@
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
         <h2>Участия и конкурси</h2>
+        @if (this.User.IsInRole("Administrator"))
+        {
+            <a asp-controller="Gallery" asp-action="Create">Create</a>
+        }
     </div>
 </section><!-- End Breadcrumbs -->
 <!-- ======= Portfolio Section ======= -->
@@ -22,6 +26,10 @@
                         <div class="portfolio-info">
                             <div class="portfolio-links">
                                 <a href="@picture.ImageUrl" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                                @if (this.User.IsInRole("Administrator"))
+                                {
+                                    <a asp-controller="Gallery" asp-action="Remove" asp-route-id="@picture.Id" type="submit"><i class="bx bx-x-circle"></i></a>
+                                }
                             </div>
                         </div>
                     </div>
