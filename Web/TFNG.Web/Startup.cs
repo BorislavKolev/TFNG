@@ -79,6 +79,7 @@
             services.AddTransient<IAwardsService, AwardsService>();
             services.AddTransient<IDancesService, DancesService>();
             services.AddTransient<INewsService, NewsService>();
+            services.AddTransient<IGalleryService, GalleryService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -118,6 +119,8 @@
                 endpoints =>
                     {
                         endpoints.MapControllerRoute("awardsRoute", "Awards", new { controller = "Awards", action = "All" });
+                        endpoints.MapControllerRoute("galleryCompetitionsRoute", "Gallery/Competitions", new { controller = "Gallery", action = "AllCompetitions" });
+                        endpoints.MapControllerRoute("galleryVacationsRoute", "Gallery/Vacations", new { controller = "Gallery", action = "AllVacations" });
                         endpoints.MapControllerRoute("dancesRoute", "Dances", new { controller = "Dances", action = "All" });
                         endpoints.MapControllerRoute("danceDetailsRoute", "Dances/{name}", new { Controller = "Dances", Action = "ByName" });
                         endpoints.MapControllerRoute("newsRoute", "News", new { controller = "News", action = "All" });
