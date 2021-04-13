@@ -22,6 +22,7 @@
     using TFNG.Services.Mapping;
     using TFNG.Services.Messaging;
     using TFNG.Web.ViewModels;
+    using ТАК.Services.Messaging;
 
     public class Startup
     {
@@ -80,6 +81,8 @@
             services.AddTransient<IDancesService, DancesService>();
             services.AddTransient<INewsService, NewsService>();
             services.AddTransient<IGalleryService, GalleryService>();
+
+            services.AddTransient<IEmailSender>(x => new SendGridEmailSender(this.configuration["SendGrid:ApiKey"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -125,6 +128,7 @@
                         endpoints.MapControllerRoute("danceDetailsRoute", "Dances/{name}", new { Controller = "Dances", Action = "ByName" });
                         endpoints.MapControllerRoute("newsRoute", "News", new { controller = "News", action = "All" });
                         endpoints.MapControllerRoute("newsDetailsRoute", "News/{name}", new { Controller = "News", Action = "ByName" });
+                        endpoints.MapControllerRoute("contactsRoute", "Contacts", new { controller = "Contacts", action = "Index" });
                         endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapRazorPages();
