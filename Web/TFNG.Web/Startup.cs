@@ -129,6 +129,7 @@
                         endpoints.MapControllerRoute("newsRoute", "News", new { controller = "News", action = "All" });
                         endpoints.MapControllerRoute("newsDetailsRoute", "News/{name}", new { Controller = "News", Action = "ByName" });
                         endpoints.MapControllerRoute("contactsRoute", "Contacts", new { controller = "Contacts", action = "Index" });
+                        endpoints.MapControllerRoute("biographyRoute", "Biography", new { controller = "Biography", action = "Index" });
                         endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapRazorPages();

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    @RenderSection("metatags", false)
     <title>Танцова Формация "Нова Генерация"</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -75,9 +75,9 @@
                         <a asp-area="" asp-controller="News" asp-action="All">Новини</a>
                     </li>
 
-                    <li><a asp-area="" asp-controller="Awards" asp-action="All">Конкурси и награди</a></li>
+                    <li><a asp-area="" asp-controller="Awards" asp-action="All">Награди</a></li>
                     <li><a asp-area="" asp-controller="Dances" asp-action="All">Нашите танци</a></li>
-                    <li><a href="pricing.html">Костюми</a></li>
+                    <li><a asp-area="" asp-controller="Biography" asp-action="Index">За ръководителя</a></li>
                     <li class="drop-down">
                         <a>Галерия</a>
                         <ul>
@@ -103,7 +103,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>TFNG</span></strong>. Всички права запазени.
+                <i>&copy; Copyright <strong><span>TFNG</span></strong>. Всички права запазени.</i>
             </div>
             <!--<div class="credits">-->
             <!-- All the links in the footer should remain intact. -->

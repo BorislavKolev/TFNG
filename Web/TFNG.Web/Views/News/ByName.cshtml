@@ -3,7 +3,20 @@
 @{
     this.ViewData["Title"] = this.Model.Title;
 }
-
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+@section metatags
+{
+    <meta property="og:title" content="@Model.Title" />
+    <meta property="og:image" content="@Model.ImageUrl" />
+}
 <main id="main">
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog">
@@ -35,9 +48,11 @@
                         </div>
 
                         <div class="float-right share">
-                            <a href="" title="Share on Twitter"><i class="icofont-twitter"></i></a>
-                            <a href="" title="Share on Facebook"><i class="icofont-facebook"></i></a>
-                            <a href="" title="Share on Instagram"><i class="icofont-instagram"></i></a>
+                            <div class="fb-share-button"
+                                 data-href="https://tfng.bg/News/@Model.LatinTitle"
+                                 data-layout="button"
+                                 data-size="large">
+                            </div>
                         </div>
 
                 </div>
@@ -45,15 +60,15 @@
                 </article><!-- End blog entry -->
                 @if (this.User.IsInRole("Administrator"))
                 {
-                <div class="text-center">
-                    <a asp-controller="News" asp-action="Edit" asp-route-id="@Model.Id" class="btn">Edit</a>
-                    <a asp-controller="News" asp-action="Remove" asp-route-id="@Model.Id" type="submit" class="btn">Delete</a>
-                    <a asp-controller="News" asp-action="All" type="submit" class="btn">Back to All</a>
-                </div>
+                    <div class="text-center">
+                        <a asp-controller="News" asp-action="Edit" asp-route-id="@Model.Id" class="btn">Edit</a>
+                        <a asp-controller="News" asp-action="Remove" asp-route-id="@Model.Id" type="submit" class="btn">Delete</a>
+                        <a asp-controller="News" asp-action="All" type="submit" class="btn">Back to All</a>
+                    </div>
                 }
             </div>
 
-            </div>
+        </div>
     </section><!-- End Blog Section -->
 
 </main><!-- End #main -->
